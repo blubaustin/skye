@@ -6,7 +6,7 @@ sudo add-apt-repository contrib non-free-firmware
 sudo apt-get update
 sudo apt-get -y upgrade
 #installs nessecary packages for: stable diffusion to start, pull from git, kernel compile tools for things
-sudo apt-get -y install git build-essential libncurses5-dev zlib1g-dev curl virtualenv python3-virtualenv dkms extrepo nstall dirmngr ca-certificates software-properties-common apt-transport-https dkms
+sudo apt-get -y install git build-essential libncurses5-dev zlib1g-dev curl virtualenv python3-virtualenv dkms extrepo nstall dirmngr ca-certificates software-properties-common apt-transport-https dkms okular
 python3 -m venv venv
 sudo apt-get -y build-dep linux
 sudo extrepo enable librewolf
