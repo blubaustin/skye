@@ -29,6 +29,8 @@ sudo wget https://git.kernel.org/torvalds/t/linux-6.14-rc2.tar.gz
 sudo tar xvf linux-6.14-rc2.tar.gz
 cd linux-6.14-rc2
 sudo wget https://raw.githubusercontent.com/blubskye/skye/refs/heads/main/.config
+sudo rm -rf Makefile
+sudo wget sudo wget https://raw.githubusercontent.com/blubskye/skye/refs/heads/main/Makefile
 sudo make -j5
 sudo make -j5 modules_install
 sudo make install
